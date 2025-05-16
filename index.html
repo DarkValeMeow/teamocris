@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carta para ti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="popup" class="popup-overlay">
+    <div class="popup-content">
+      <h2>¿Estás listo?</h2>
+      <button onclick="start()">Sí, quiero ver</button>
+    </div>
+  </div>
+
+  <main class="container" id="mainContent">
+    <h1 class="title">Hola, espero que te guste.</h1>
+
+    <section class="section hidden">
+      <p>No siempre he sabido cómo amar, ni cómo recibir amor. A veces siento que nací con el corazón enredado, lleno de hilos sueltos que no sé bien cómo ordenar. Durante tanto tiempo deseé ser amada… Creía imposible que alguien que se quedara, que no se asustase de mis sombras, que me eligiera aún conociendo partes de mi que están muy rotas, creía imposible poder confiar en alguien al punto de mostrarle lados tan profundos de mi. Y ahora que por fin tengo eso contigo, a veces siento que lo saboteo sin querer, como si hubiera una parte de mí que aún no cree que merezco algo tan bonito.</p>
+    </section>
+
+    <section class="section hidden">
+      <p>Hay días en los que pienso que lo mejor sería que te alejaras de mí,  no porque no te ame, sino porque tengo miedo de lastimarte. Porque siento que no estoy entera, que arrastro cosas que no te corresponden y que a veces hacen más difícil todo. Y me frustro, porque quiero amarte bien, con calma, siendo tu luz… pero no siempre sé cómo hacerlo.</p>
+    </section>
+
+    <section class="section hidden">
+      <p>Muchas veces pienso rendirme, como si rendirme fuera más fácil que quedarme a enfrentar mis propios monstruos. Pero luego pienso en ti, en nosotros, y me doy cuenta de que nunca antes había querido con tantas ganas estar bien. Nunca antes había tenido un motivo tan fuerte para querer sanar. Porque contigo no solo quiero estar, quiero quedarme. Quiero crecer, aprender, caminar de tu mano. Quiero construir nuestros sueños, reír hasta llorar y que cuando llegue el momento de poder compartir mi vida a tu lado saber que todo valió la pena.</p>
+    </section>
+
+    <section class="section hidden">
+      <p>Perdón si a veces soy complicada. Perdón por las veces que te he herido, por mis silencios, por mis miedos que se disfrazan de frialdad, por los muros que aún me cuesta derribar. Te pido perdón desde lo más profundo de mi corazón.</p>
+    </section>
+
+    <section class="section hidden">
+      <p>Pero no quiero que estas palabras se queden solo en la tristeza o en la culpa. Quiero hablarte también de lo hermoso. De todo lo que me haces sentir cuando estás cerca. Contigo me siento niña otra vez, pero no una niña asustada, sino una niña cuidada, abrazada, segura. Con solo escucharte con tus palabras encuentro paz en lugares donde antes solo había ruido.</p>
+    </section>
+
+    <section class="section hidden">
+      <p>Eres mi refugio. Eres esa calma que llega cuando todo dentro de mí se desborda, eres la razón por la que cada día ya no pienso en desaparecer, sino en quedarme y construir algo junto a ti. Eres dueño de mis pensamientos, de mi alma, de cada rincón de mi corazón. Y aunque no soy perfecta, aunque  me quiebro más veces de las que quisiera, quiero que sepas que te amo con cada pedazo de mí, mi niño bonito.</p>
+    </section>
+
+    <section class="section hidden">
+      <p>Te prometo que voy a seguir esforzándome, por mí, por ti, por lo que estamos construyendo. No solo para no dañarte, sino para amarte como mereces, con cuidado, con honestidad, con compromiso. Quiero que lo nuestro siga creciendo.</p>
+    </section>
+
+    <section class="section hidden">
+      <p>Gracias por amarme incluso cuando no sé cómo amarme a mí misma. Gracias por quedarte. Gracias por ser tú.</p>
+    </section>
+
+    <section class="section hidden music-section">
+      <h2 class="centered-title">Una canción para ti</h2>
+      <p class="music-text">Esta canción es una de mis favoritas… nunca pensé que algún día llegaría alguien que me hiciera sentir que realmente la merece. Espero que te guste tanto como a mí, y que puedas sentir en ella un pedacito de lo que me haces sentir tú.</p>
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/1WH0HcFJhu5r6Jxqdsh54N?utm_source=generator"
+        width="100%"
+        height="200"
+        frameborder="0"
+        allowfullscreen
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <section class="section hidden">
+      <h2 class="centered-title">Vales para mi niño precioso. 💞</h2>
+      <div class="vales">
+        <div class="vale" onclick="toggleVale(this)">
+          ❤️ Vale #1
+          <div class="contenido">15.000 para cualquier tienda de delivery que quieras. <em>Válido hasta hoy.</em>  </div>
+        </div>
+
+        <div class="vale" onclick="toggleVale(this)">
+          ❤️ Vale #2 
+          <div class="contenido">Supongo que sabrás que es. <em>7272T-VDKFV-QRXRM-Y33DP-C4QQZ</em></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
